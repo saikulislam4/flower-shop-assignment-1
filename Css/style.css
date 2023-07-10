@@ -215,7 +215,9 @@ body {
     height: 420px;
     width: 318px;
 }
+
 /* -----instagram section styles----- */
+
 .instagram-section{
     margin-bottom: 130px;
 }
@@ -226,7 +228,27 @@ body {
     justify-content: space-between;
 }
 .instagram-section .instagram-item{
-
+    
     height: 340px;
     width: 23.5%;
+}
+/* -----subscribe section styles----- */
+#subscribe-section{
+    padding: 120px 280px;
+    background: #272727;
+    background-image: url(../Background/subscribe.png);
+    border-radius: 8px;
+    
+
+}
+
+
+#subscribe-section .subscribe-content input{
+    all: unset;
+    width: 50%;
+    margin-right: 20px;
+    padding: 22px;
+    color: rgba(39, 39, 39, 0.6);
+    background: #ffffff;
+
 }
