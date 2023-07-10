@@ -1,0 +1,73 @@
+/* -----css style link----- */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+/* -----common css styles----- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.container{
+    width: 1440px;
+    margin: 0 auto;
+}
+
+a {
+    text-decoration: none;
+    color: #272727;
+}
+img{
+    width: 100%;
+}
+
+body {
+    font-family: 'Lato', sans-serif;
+    color: #272727;
+}
+
+.btn-primary {
+    all: unset;
+    font-size: 20px;
+    font-weight: bold;
+    background: #E55473;
+    padding: 20px 43px;
+    color: #ffffff;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.primary-description {
+    font-style: 18px;
+    font-weight: normal;
+    line-height: 30px;
+    color: rgba(39, 39, 39, 0.6);
+    margin: 30px 0;
+}
+.primary-title{
+    font-size: 40px;
+    text-align: center;
+    margin: 0 auto;
+    font-weight: bold;
+    color: #272727;
+}
+/* -----header css style----- */
+
+.hero-section{
+    background: rgba(229, 84, 115, 0.1);
+}
+.hero-section .hero-content{
+    padding-top: 50px;
+    display: flex;
+    gap: 100px;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero-section .hero-content .hero-item{
+    width: 50%;
+}
+.hero-section .hero-content .hero-item .hero-title{
+    font-size: 80px;
+    font-weight: 900;
+
+}
