@@ -157,7 +157,7 @@ body {
     height: 1px;
     background: #272727;
     left: 0;
-    bottom: -7px;
+    bottom: -5px;
 
 }
 
@@ -244,7 +244,7 @@ body {
     background: #272727;
     background-image: url(../Background/subscribe.png);
     border-radius: 8px;
-    
+
 }
 
 #subscribe-section .subscribe-content input {
@@ -254,26 +254,92 @@ body {
     padding: 22px;
     color: rgba(39, 39, 39, 0.6);
     background: #ffffff;
-    
-}
-/* -----footer section styles----- */
 
-.footer-section{
-    padding: 130px 0;
-    background: #111010;
-    
-    
 }
-.footer-section .footer-content .primary-title{
-    color: #ffffff;
-    
+/* -----get in touch section styles----- */
+.getInTouch-section {
+    margin: 100px auto;
+    background: rgba(39, 39, 39, 0.05);
 }
-.footer-titel__modified{
+
+.getInTouch-section .getInTouch-title {
+    padding: 50px 0;
+    padding-bottom: 0;
+
+}
+
+.getInTouch-section .getInTouch-content {
+    text-align: center;
+    padding: 50px;
+    margin: 0 auto;
+
+}
+
+.getInTouch-section .getInTouch-content .item {
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.getInTouch-section .getInTouch-content label {
+    text-transform: capitalize;
+    font-size: 24px;
+    width: 8%;
+    margin-right: 20px;
+    text-align: start;
+
+
+}
+
+.getInTouch-section .getInTouch-content input,textarea {
+    all: unset;
+    width: 30%;
+    border-radius: 8px;
+    padding: 8px;
+    text-transform: capitalize;
+    background: #ffffff;
+
+}
+
+.getInTouch-title__modified {
     color: #E55473;
 }
-.footer-section .footer-content .primary-description{
+
+.getInTouch-section .getInTouch-content .getInTouch-btn {
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.getInTouch-button__modified {
+    padding: 8px 10px;
+    text-transform: capitalize;
+}
+
+/* -----footer section styles----- */
+
+.footer-section {
+    padding: 130px 130px 100px 130px;
+    background: #111010;
+
+
+}
+
+.footer-section .footer-content .primary-title {
+    color: #ffffff;
+
+}
+
+.footer-titel__modified {
+    color: #E55473;
+}
+
+.footer-section .footer-content .primary-description {
     color: rgba(255, 255, 255, 0.6);
 }
-.footer-section .footer-content a{
+
+.footer-section .footer-content a {
     color: rgba(255, 255, 255, 0.4);
 }
+
