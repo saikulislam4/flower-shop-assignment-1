@@ -256,6 +256,7 @@ body {
     background: #ffffff;
 
 }
+
 /* -----get in touch section styles----- */
 .getInTouch-section {
     margin: 100px auto;
@@ -291,7 +292,8 @@ body {
 
 }
 
-.getInTouch-section .getInTouch-content input,textarea {
+.getInTouch-section .getInTouch-content input,
+textarea {
     all: unset;
     width: 30%;
     border-radius: 8px;
@@ -312,10 +314,6 @@ body {
     margin-top: 20px;
 }
 
-.getInTouch-button__modified {
-    padding: 8px 10px;
-    text-transform: capitalize;
-}
 
 /* -----footer section styles----- */
 
@@ -342,4 +340,3 @@ body {
 .footer-section .footer-content a {
     color: rgba(255, 255, 255, 0.4);
 }
-
