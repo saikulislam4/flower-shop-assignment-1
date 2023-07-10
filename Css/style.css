@@ -45,7 +45,7 @@ body {
     line-height: 30px;
     color: rgba(39, 39, 39, 0.6);
     width: 600px;
-    margin:24px auto;
+    margin: 24px auto;
     text-align: center;
 
 
@@ -190,65 +190,90 @@ body {
 }
 
 /* -----sale section styles----- */
-.sale-section{
+.sale-section {
     background: rgba(229, 84, 115, 0.05);
     margin-bottom: 130px;
 }
-.sale-section .sale-offer{
+
+.sale-section .sale-offer {
     color: #E55473;
 }
-.sale-section .sale-content{
+
+.sale-section .sale-content {
     display: flex;
     justify-content: space-around;
     align-items: center;
     padding: 100px 0;
-    
-    
+
+
 }
-.sale-section .sale-content .sale-item{
+
+.sale-section .sale-content .sale-item {
     text-align: center;
     width: 50%;
     row-gap: 50px;
-    
+
 }
-.sale-section .sale-content .sale-item img{
+
+.sale-section .sale-content .sale-item img {
     height: 420px;
     width: 318px;
 }
 
 /* -----instagram section styles----- */
 
-.instagram-section{
+.instagram-section {
     margin-bottom: 130px;
 }
 
-.instagram-section .instagram-content{
+.instagram-section .instagram-content {
     display: flex;
     row-gap: 24px;
     justify-content: space-between;
 }
-.instagram-section .instagram-item{
-    
+
+.instagram-section .instagram-item {
+
     height: 340px;
     width: 23.5%;
 }
+
 /* -----subscribe section styles----- */
-#subscribe-section{
+#subscribe-section {
     padding: 120px 280px;
     background: #272727;
     background-image: url(../Background/subscribe.png);
     border-radius: 8px;
     
-
 }
 
-
-#subscribe-section .subscribe-content input{
+#subscribe-section .subscribe-content input {
     all: unset;
     width: 50%;
     margin-right: 20px;
     padding: 22px;
     color: rgba(39, 39, 39, 0.6);
     background: #ffffff;
+    
+}
+/* -----footer section styles----- */
 
+.footer-section{
+    padding: 130px 0;
+    background: #111010;
+    
+    
+}
+.footer-section .footer-content .primary-title{
+    color: #ffffff;
+    
+}
+.footer-titel__modified{
+    color: #E55473;
+}
+.footer-section .footer-content .primary-description{
+    color: rgba(255, 255, 255, 0.6);
+}
+.footer-section .footer-content a{
+    color: rgba(255, 255, 255, 0.4);
 }
